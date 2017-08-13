@@ -8,7 +8,7 @@ public class TC3 {
 	@Test
 	public void tastcase()
 	{
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Alka\\workspace2\\seljen\\drivers\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Alka\\seljen\\seljen\\drivers\\chromedriver.exe");
 	ChromeDriver driver = new ChromeDriver();
 	driver.get("http://facebook.com");
 	driver.findElementById("email").sendKeys("Hello");
